@@ -18,5 +18,12 @@ let sentencePartTwo = ["schützen wir unsere Ozeane.", "reduzieren wir die Müll
   
     };
     
-    
-    console.log(randomPartOne(sentencePartOne, sentencePartTwo));
+   // console.log(randomPartTwo(sentencePartTwo))
+
+   const returnRandomSentence = () => {
+    let partOne = randomPartOne(sentencePartOne);
+    let partTwo = randomPartTwo(sentencePartTwo);
+    console.log(`${partOne}, ${partTwo}`);
+   }
+
+   returnRandomSentence();
